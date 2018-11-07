@@ -1,0 +1,71 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+* a {
+  color: #212529;
+}
+* a:hover {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+* ul {
+  list-style-type: square;
+}
+* small {
+  color: #4e4e4e;
+}
+* .vl {
+  border-left: 1px solid #5e5e5e;
+}
+
+body {
+  padding: 3%;
+  background: linear-gradient(160deg, #999b76 10%, #c5a230b5 61%, #8e838a 90%);
+}
+
+main .rapper {
+  padding: 3%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.header {
+  background-color: #353231;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.header a {
+  color: #fff;
+}
+.header a:hover {
+  color: gray;
+}
+
+@media (max-width: 576px) {
+  header .img-fluid {
+    width: 100px;
+    height: 120px;
+  }
+  header h2 {
+    font-size: 22px;
+  }
+  header .lead {
+    font-size: 16px;
+  }
+}
+#skill .progress {
+  font-size: 1rem;
+  border-radius: 0;
+}
+#skill .progress .progress-bar {
+  background-color: #353131;
+}
+#skill img {
+  border: 1px solid #ccc;
+}
+
+.footer {
+  background-color: #353231;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */

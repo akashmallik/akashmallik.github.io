@@ -1,0 +1,108 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1200; }
+
+#particles-js {
+  position: relative; }
+  #particles-js .content {
+    background-color: #2d2d2d;
+    height: 300px; }
+  #particles-js .rapper {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    padding: 6% 20%; }
+
+@media (max-width: 575px) {
+  #slider .content {
+    height: 160px; } }
+@media (min-width: 1200px) {
+  #slider .content {
+    height: 360px; } }
+#about {
+  padding-top: 18%;
+  color: #9b9b9b;
+  background-color: #202020; }
+  #about p {
+    font-size: 14px; }
+
+#gallery {
+  background-color: #2d2d2d; }
+  #gallery .card {
+    overflow: hidden; }
+    #gallery .card .card-img {
+      width: 100%;
+      transition: .6s; }
+    #gallery .card .card-img-overlay {
+      transition: .6s; }
+      #gallery .card .card-img-overlay .card-text {
+        color: #ffffff;
+        opacity: 0;
+        transition: .6s;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%); }
+    #gallery .card:hover .card-img {
+      transform: scale(1.25); }
+    #gallery .card:hover .card-img-overlay {
+      color: #ffffff;
+      background-color: rgba(0, 0, 0, 0.8); }
+      #gallery .card:hover .card-img-overlay .card-text {
+        opacity: 1; }
+
+#contact {
+  background-color: #202020; }
+  #contact .form-control {
+    color: #9b9b9b;
+    background-color: #2d2d2d;
+    border: none;
+    border-radius: 0; }
+    #contact .form-control:focus {
+      box-shadow: 0 0 0 0.1rem rgba(254, 254, 255, 0.32); }
+  #contact .btn {
+    color: #9b9b9b;
+    background-color: #2d2d2d;
+    border: none;
+    border-radius: 0; }
+    #contact .btn:focus {
+      box-shadow: 0 0 0 0.1rem rgba(254, 254, 255, 0.32); }
+  #contact h4, #contact p {
+    color: #9b9b9b; }
+
+#footer {
+  background-color: #0c0c0c; }
+  #footer span {
+    color: #9b9b9b; }
+
+aside {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%); }
+  aside .btn {
+    border-radius: 0; }
+  aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  aside .hide {
+    display: none; }
+  aside .btn-group {
+    display: flex; }
+  aside .btn-group-vertical > .btn, aside .btn-group > .btn {
+    flex: auto; }
+
+.pull {
+  position: fixed;
+  right: 2%;
+  bottom: 2%; }
+  .pull .btn {
+    border-radius: 0; }
+
+/*# sourceMappingURL=style.css.map */
