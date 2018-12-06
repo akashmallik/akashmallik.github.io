@@ -4,3 +4,11 @@
 @import "nav.scss";
 @import "resume-item.scss";
 @import "bootstrap-overrides.scss";
+
+
+#portfolio{
+    .caption-heading{
+        font-size: 1.5rem;
+        padding: 10px 0;
+    }
+}
