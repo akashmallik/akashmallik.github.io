@@ -1,0 +1,31 @@
+$primary: #2e2e2e;
+$active: #81bd3c;
+$bg2: #2e2e2e;
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Oswald|Source+Sans+Pro');
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Source Sans Pro', sans-serif;
+// font-family: 'Merriweather', serif;
+
+
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+a{
+    color: $primary;
+    &:hover{
+        text-decoration: none;
+        color: $active;
+    }
+}
